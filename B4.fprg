@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-01 05:06:49 PM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtBRE1JTjsyMDIxLTAzLTAxOzA0OjU5OjM1IFBNOzMwMTc="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtBRE1JTjsyMDIxLTAzLTAxOzA1OjA2OjQ5IFBNOzE7MzEyMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;input the radius of the clrcle&quot;" newline="True"/>
+            <input variable="x"/>
+            <comment text="The following will call the Clrcle function using the value the user enlered"/>
+            <output expression="&quot;Area is&quot;&amp; clrdle(x)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
